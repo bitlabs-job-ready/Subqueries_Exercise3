@@ -1,0 +1,49 @@
+
+Consider the following tables called “products” and "Orders" to write SQL queries for below exercises.  
+
+Before working on exercises create below table and insert records into these tables. 
+ 
+
+Table: products  
+
+Product id  	P_name  	Sell_price  
+
+101  		Laptop  	45000  
+
+102  		Camera  	34000  
+
+103  		Soap  		50  
+
+104  		Pen  		200  
+
+105  		Table  		2300  
+
+106  		Mobile  	20000  
+
+
+
+Table: Orders 
+
+O_id	 	Odate 		Pid 	Sell_price 
+
+O202 		10-Mar-22 	101 	45000 
+
+O203 		15-Mar-22 	101 	45000 
+
+O204 		17-Mar-22 	103 	50 
+
+O205 		20-Mar-22 	101 	45000 
+
+O206 		12-Apr-22 	105 	2300 
+
+O207 		15-Apr-22 	104 	50 
+
+ 
+
+Exercise: 10 
+
+Write a SQL query to update sell_price values by adding 10% discount on all the products present in product table. 
+
+Exercise: 11 
+
+Write a SQL query to delete products from products table which are orders are placed on 20-Mar-2022 in orders table 
